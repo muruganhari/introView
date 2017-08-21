@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UICollectionView *introCollectionview;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 @end
 
